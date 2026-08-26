@@ -104,7 +104,7 @@ CREATE TABLE Session (
     CONSTRAINT CK_Session_Role CHECK (RoleSnapshot IN ('Organizer','Participant')),
     CONSTRAINT CK_Session_Expiry CHECK (ExpiresAt > CreatedAt)
 );
-
+/*5 tables created*/
 INSERT INTO Users (FirstName,LastName,Email,PasswordHash,Role,Phone)
 VALUES
 ('Lerato','Mokoena','lerato.organizer@raceday.co.za','PBKDF2-SHA256$SAMPLE_HASH_001','Organizer','0825550101'),
