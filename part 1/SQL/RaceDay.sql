@@ -9,7 +9,7 @@ END;
 CREATE DATABASE RaceDay;
 
 USE RaceDay;
-
+/*5 tables created*/
 CREATE TABLE Users (
     UserId INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_User PRIMARY KEY,
     FirstName VARCHAR(50) NOT NULL,
