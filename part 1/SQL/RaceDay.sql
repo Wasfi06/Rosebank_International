@@ -154,3 +154,10 @@ SELECT COUNT(*) AS CategoryCount FROM Category;
 SELECT COUNT(*) AS EnrollmentCount FROM Enrollment;
 SELECT COUNT(*) AS ResultCount FROM Result;
 SELECT COUNT(*) AS SessionCount FROM Session;
+
+select * from Users
+select * from Event
+select * from Category
+select * from Enrollment
+select * from Result
+select * from Session
